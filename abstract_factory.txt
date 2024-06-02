@@ -25,6 +25,8 @@ AbstractProduct <|-- ConcreteProduct
 Client --> AbstractFactory
 Client --> AbstractProduct
 
+AbstractFactory -right- AbstractProduct : creates
+
 note as N1
     <b><color:royalBlue>Abstract Factory</color></b>
     <b>Type:</b> Creational
